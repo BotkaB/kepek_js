@@ -1,0 +1,61 @@
+body
+{
+    background-color: rgb(134, 134, 133);
+    margin: auto;
+    width:90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "u u u"
+    "c c c"
+    "k k k"
+    "l l l";
+}
+
+#uzenet
+{
+    background-color: rgb(7, 7, 7);
+    color: aliceblue;
+    border-color: rgb(83, 35, 35);
+    border-style: groove;
+    text-align: center;
+    grid-area: u;
+}
+
+#cim
+{
+    background-color: rgb(126, 124, 121);
+    border-style: groove;
+    border-color: rgb(83, 35, 35);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: c;
+}
+
+#kepek
+{   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: k;
+    border-color: rgb(83, 35, 35);
+    border-style: groove;
+}
+
+#leiras
+{
+    background-color: rgb(126, 124, 121);;
+    border-style: groove;
+    border-color: rgb(83, 35, 35);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: l;
+}
+
+img
+{
+    width: 100%;
+   
+    
+}
