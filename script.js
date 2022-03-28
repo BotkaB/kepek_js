@@ -8,7 +8,7 @@ var kep = [
     {
         cim: "Weekend Punk",
         eleresiUt: "képek/kep2.jpg",
-        leiras:"Hétvégenként punk vagyok,Patkány Joe-nak hívjatok.",
+        leiras:"Hétvégenként punk vagyok, Patkány Joe-nak hívjatok.",
     },
     {
         cim: "Karácsony",
